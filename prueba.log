@@ -1,0 +1,15 @@
+[2025-04-30 09:15:23] INFO: POST /login - 120ms
+[2025-04-30 09:15:25] INFO: GET /products - 88ms
+[2025-04-30 09:16:01] INFO: POST /cart/add - 150ms
+[2025-04-30 09:16:34] INFO: GET /cart - 95ms
+[2025-04-30 09:17:00] INFO: POST /checkout - 210ms
+[2025-04-30 09:17:15] INFO: POST /payment - 320ms
+[2025-04-30 09:18:00] INFO: GET /orders - 110ms
+[2025-04-30 10:01:22] INFO: POST /checkout - 480ms
+[2025-04-30 10:10:01] INFO: POST /checkout - 620ms
+[2025-04-30 11:45:15] INFO: POST /checkout - 890ms
+[2025-04-30 13:22:45] INFO: POST /checkout - 100ms
+[2025-04-30 14:01:55] INFO: POST /checkout - 700ms
+[2025-04-30 15:30:11] INFO: POST /checkout - 230ms
+[2025-04-30 15:45:11] INFO: POST /payment - 980ms
+[2025-04-30 16:00:00] INFO: POST /checkout - 60ms
