@@ -1,10 +1,13 @@
 import re
 import pandas as pd
 from datetime import *
-import sys
 
+
+#COLORES
 RED = '\033[91m'
 ENDC = '\033[0m'
+GREEN = '\033[92m'
+YELLOW = '\033[93m'
 
 
 
@@ -12,11 +15,11 @@ ENDC = '\033[0m'
 # funcion para clasificar el estado segun el ms
 def statusMs(ms):
     if ms < 300:
-        return "Óptimo"
+        return f"{GREEN}Óptimo{ENDC}"
     elif ms < 700:
-        return "Lento"
+        return f"{YELLOW}lento{ENDC}"
     else:
-        return "Crítico"
+        return F"{RED}Crítico{ENDC}"
 
 
 
